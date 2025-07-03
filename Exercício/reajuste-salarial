@@ -1,0 +1,10 @@
+algoritmo "reajuste_salarial"
+var
+   salario, novo_salario: real
+
+inicio
+   escreva("Informe seu salário atual: R$ ")
+   leia(salario)
+   novo_salario <- salario * 1.10
+   escreval("Seu novo salário com reajuste de 10% é: R$ ", novo_salario)
+fimalgoritmo
