@@ -1,0 +1,55 @@
+# 📥 03 - Entrada de dados no Visualg: usando o `leia`
+
+Depois de entender o que é um algoritmo e como exibir informações com os comandos `escreva` e `escreval`, chegou a hora de dar o próximo passo: **fazer com que o programa receba informações digitadas pelo usuário**. Para isso, usamos o comando `leia`.
+
+## ✍️ O que é o comando `leia`
+
+O `leia` permite capturar valores inseridos pelo usuário durante a execução do algoritmo. Ele armazena esse valor em uma **variável**, que pode ser usada mais adiante no programa.
+
+### 🧠 Sintaxe básica:
+```alg
+leia(nome_da_variavel)
+
+📌 Exemplo simples
+inicio
+    escreva("Digite seu nome: ")
+    leia(nome)
+    escreval("Olá, ", nome, "!")
+fimalgoritmo
+
+
+📌 Nesse exemplo:
+- O escreva pede que o usuário digite algo.
+- O leia armazena a entrada na variável nome.
+- O escreval mostra a mensagem usando o valor que foi armazenado.
+
+🧪 Exemplo com números
+inicio
+    escreva("Digite sua idade: ")
+    leia(idade)
+    escreval("Ano que vem você terá ", idade + 1, " anos.")
+fimalgoritmo
+
+
+💡 Dica: Se quiser trabalhar com valores numéricos, declare a variável como inteiro ou real no início do algoritmo.
+
+📋 Boas práticas
+- Sempre use um escreva antes do leia para orientar o usuário.
+- Certifique-se de declarar as variáveis corretamente no início do seu algoritmo.
+- Teste o programa inserindo diferentes tipos de dados para entender o comportamento.
+
+🔄 Resumo rápido
+| Comando | Função | 
+| escreva | Exibe uma mensagem sem pular linha | 
+| escreval | Exibe uma mensagem e pula para a próxima linha | 
+| leia | Captura o valor digitado e armazena numa variável | 
+
+
+
+🚀 Agora que você aprendeu a fazer seu algoritmo conversar com o usuário, podemos começar a processar essas informações com variáveis, operações e condições. Que tal partir para o próximo tema: Tipos de variáveis e dados no Visualg?
+
+---
+
+Se curtir, posso montar o próximo conteúdo dessa série: **04 - Tipos de variáveis e dados**. Também posso converter esse `.md` pra PDF depois se quiser ter uma versão para baixar ou compartilhar. Vamos em frente? 😊📘✨
+
+
