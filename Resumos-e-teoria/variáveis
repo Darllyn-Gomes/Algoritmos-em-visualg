@@ -1,0 +1,69 @@
+# 🧮 04 - Variáveis e Tipos de Dados no Visualg
+
+Ao escrever algoritmos, precisamos **guardar informações** para usar durante a execução do programa. Para isso, usamos as **variáveis**, que funcionam como “caixinhas” onde podemos armazenar valores temporários.
+
+---
+
+## 📦 O que são variáveis?
+
+Variáveis são espaços de memória que guardam valores que podem mudar enquanto o algoritmo é executado. Toda variável tem um **nome** e um **tipo** de dado.
+
+### 🗣️ Exemplo do dia a dia:
+Imagine a variável `nome` como uma etiqueta colada em uma caixinha. Se você guardar “Darllyn” ali, sempre que usar `nome`, estará usando o valor “Darllyn”.
+
+---
+
+## 🔤 Tipos de variáveis no Visualg
+
+| Tipo       | Uso                               | Exemplo de valor      |
+|------------|------------------------------------|------------------------|
+| `inteiro`  | Números inteiros                   | 5, -10, 0              |
+| `real`     | Números com casas decimais         | 3.14, -7.8, 0.0        |
+| `caractere`| Letras, palavras ou frases         | "banana", "A", "1234" |
+| `logico`   | Valores verdadeiros ou falsos      | verdadeiro, falso      |
+
+---
+
+## 🧾 Como declarar variáveis
+
+Antes de usar qualquer variável, você deve declará-la no início do algoritmo, dentro da seção `var`. Veja o exemplo:
+
+```alg
+var
+   nome: caractere
+   idade: inteiro
+   altura: real
+   possui_carteira: logico
+
+  🧪 Exemplo prático
+algoritmo "variaveis-exemplo"
+var
+   nome: caractere
+   idade: inteiro
+
+inicio
+   escreva("Digite seu nome: ")
+   leia(nome)
+   escreva("Digite sua idade: ")
+   leia(idade)
+   escreval("Olá, ", nome, "! Você tem ", idade, " anos.")
+fimalgoritmo
+
+
+
+⚠️ Regras para nomear variáveis no Visualg
+- Não pode ter espaços (ex: nome completo ❌ → nome_completo ✅)
+- Evite acentos e cedilha
+- Deve começar com uma letra
+- Use nomes descritivos e fáceis de entender
+
+🚀 Recapitulando
+- Variáveis guardam informações usadas no algoritmo
+- Devem ser declaradas com nome e tipo
+- Os tipos mais comuns são: inteiro, real, caractere, logico
+- Nomeie com clareza e sem espaços
+
+
+
+---
+
