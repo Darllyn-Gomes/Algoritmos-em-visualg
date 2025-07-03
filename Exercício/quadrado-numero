@@ -1,0 +1,10 @@
+algoritmo "quadrado_numero"
+var
+   numero, resultado: inteiro
+
+inicio
+   escreva("Digite um número: ")
+   leia(numero)
+   resultado <- numero * numero
+   escreval("O quadrado de ", numero, " é ", resultado)
+fimalgoritmo
