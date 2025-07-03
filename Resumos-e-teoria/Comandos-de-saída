@@ -1,0 +1,28 @@
+📤 Comandos de saída no Visualg
+Os comandos de saída são utilizados para exibir mensagens, valores de variáveis e resultados de operações durante a execução do algoritmo. 
+No Visualg, os mais comuns são:
+
+🖊️ escreva
+- Exibe uma mensagem sem pular para a próxima linha
+- Pode ser usado para exibir várias informações na mesma linha
+Ex.:
+escreva("Digite seu nome: ")
+
+🖊️ escreval
+- Exibe uma mensagem e pula para a linha de baixo
+- Ideal para separar visualmente as saídas
+Ex.:
+escreval("Bem-vindo ao programa!")
+
+✨ Exemplo completo:
+inicio
+    escreval("=== Programa de Boas-Vindas ===")
+    escreva("Digite seu nome: ")
+    leia(nome)
+    escreval("Olá, ", nome, "!")
+fimalgoritmo
+
+🧠 Dica: É possível concatenar texto e variáveis usando vírgulas. O Visualg interpreta e exibe tudo de forma contínua.
+
+
+
